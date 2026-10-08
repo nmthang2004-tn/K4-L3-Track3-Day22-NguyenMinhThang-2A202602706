@@ -1,0 +1,2 @@
+✓ Khớp tham chiếu: 0.6981
+NB0 CPU checks passed: reference match, init loss=0.693147, beta=0, finite gradients.

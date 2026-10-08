@@ -1,0 +1,105 @@
+{
+  "source_zip": "lab22-NB0-NB4-NB3b.zip",
+  "source_zip_sha256": "266a889d122fe4a05be80c7d9f2226072269ff69b46a884198a3d769265803a3",
+  "files": {
+    "adapters/dpo/adapter_config.json": "ee1d61945e57f7a6ce62547a240bd1c709ff873d645cca7e7709da12a4d62542",
+    "adapters/dpo/dpo_metrics.json": "a8dfd184ea697c25f2b07f5ec8e173d60be62dae70d245f47ea97fb8cc44ab60",
+    "adapters/dpo/ref/adapter_config.json": "ee1d61945e57f7a6ce62547a240bd1c709ff873d645cca7e7709da12a4d62542",
+    "adapters/dpo/split.json": "965508ac8e1669a3f1b59a77433b1b87467b2d7f7d9ae8a9ff889015e74f0c50",
+    "adapters/dpo/tokenizer.json": "476870a1f2fb6f6a2759a6ede2383bf9d5d738f17844563b65c91965b722ae09",
+    "adapters/dpo/tokenizer_config.json": "ee7322a6042da95693699800174927e37c5d2fe2a279079abbcd9708b9fbb07e",
+    "adapters/sft-mini/adapter_config.json": "a83bd402f9c4dbe4e65b7c30c4b3a4a46d88b7f7e4b705eaad970df205b8fa57",
+    "adapters/sft-mini/tokenizer.json": "476870a1f2fb6f6a2759a6ede2383bf9d5d738f17844563b65c91965b722ae09",
+    "adapters/sft-mini/tokenizer_config.json": "a47993638e157bd9a5664ed3e98d4c3badc328f9f3a833e328f1c6aaae7eb1fb",
+    "adapters/variants/dpo/adapter_config.json": "ee1d61945e57f7a6ce62547a240bd1c709ff873d645cca7e7709da12a4d62542",
+    "adapters/variants/dpo/ref/adapter_config.json": "ee1d61945e57f7a6ce62547a240bd1c709ff873d645cca7e7709da12a4d62542",
+    "adapters/variants/dpo_norm/adapter_config.json": "ee1d61945e57f7a6ce62547a240bd1c709ff873d645cca7e7709da12a4d62542",
+    "adapters/variants/dpo_norm/ref/adapter_config.json": "ee1d61945e57f7a6ce62547a240bd1c709ff873d645cca7e7709da12a4d62542",
+    "adapters/variants/ld_dpo/adapter_config.json": "ee1d61945e57f7a6ce62547a240bd1c709ff873d645cca7e7709da12a4d62542",
+    "adapters/variants/ld_dpo/ref/adapter_config.json": "ee1d61945e57f7a6ce62547a240bd1c709ff873d645cca7e7709da12a4d62542",
+    "adapters/variants/orpo/adapter_config.json": "ee1d61945e57f7a6ce62547a240bd1c709ff873d645cca7e7709da12a4d62542",
+    "adapters/variants/rpo/adapter_config.json": "ee1d61945e57f7a6ce62547a240bd1c709ff873d645cca7e7709da12a4d62542",
+    "adapters/variants/rpo/ref/adapter_config.json": "ee1d61945e57f7a6ce62547a240bd1c709ff873d645cca7e7709da12a4d62542",
+    "adapters/variants/variants_summary.json": "75661c7f1e350fb59c66312a7e034d481ffc64895bfa764444465ce537c496e9",
+    "data/eval/judge_results_rm.json": "481ff68fb42ad5e68535e411fb887bbb1771ad6d4ab7847173006d5da168eb14",
+    "data/eval/judge_summary.json": "5a63ea8cf4bb16bef31afa2d2e250d02ee0e0eabfae881f6cfa28395785da97c",
+    "data/eval/side_by_side.jsonl": "10b390c8681901f59b637c00eb330b465c905c85664af9e1c32d430ecfd0206b",
+    "data/pref/eval.parquet": "54e58e6033b838db373ddd0737d3ae99c606fd3932391b751cddf236149bcf26",
+    "data/pref/train.parquet": "3f01b58d2b85b5ed6c296b053376419bcd245e98ce045b1cc762ce314fa41ef8",
+    "models/sft-merged/config.json": "93805895bae1690606f33d211ec52fa19bbcc4b9dab4cb348518bea4fcccb1f1",
+    "submission/screenshots/02-sft-loss.png": "6e78f42596a2d5e3679b41024de2345df0baab9054f45fbd513a967614c19c37",
+    "submission/screenshots/02b-pref-length.png": "1cda78191aa2a83d7b5fa94f79bb1eb44beeada878f35ae086c21c3560941abc",
+    "submission/screenshots/03-dpo-reward-curves.png": "ae0be405ee890853f18e69038207d38a5bad76a44bb01c973fed2936f632f930",
+    "submission/screenshots/03b-variants.png": "ec6bf0033c55a0c9e0f22250cd47d1699f1844343085cbafb1b49b1a624d60b0",
+    "submission/screenshots/04-side-by-side-table.png": "78c61eca9b73ea00d6eeefa62a464cefdb81c346a1019c179ad5510a5a1d732c"
+  },
+  "relocated_adapter_configs": [
+    {
+      "file": "adapters/dpo/adapter_config.json",
+      "original_base_model_name_or_path": "/content/lab22/models/sft-merged",
+      "local_base_model_name_or_path": "models/sft-merged"
+    },
+    {
+      "file": "adapters/dpo/ref/adapter_config.json",
+      "original_base_model_name_or_path": "/content/lab22/models/sft-merged",
+      "local_base_model_name_or_path": "models/sft-merged"
+    },
+    {
+      "file": "adapters/variants/dpo/adapter_config.json",
+      "original_base_model_name_or_path": "/content/lab22/models/sft-merged",
+      "local_base_model_name_or_path": "models/sft-merged"
+    },
+    {
+      "file": "adapters/variants/dpo/ref/adapter_config.json",
+      "original_base_model_name_or_path": "/content/lab22/models/sft-merged",
+      "local_base_model_name_or_path": "models/sft-merged"
+    },
+    {
+      "file": "adapters/variants/dpo_norm/adapter_config.json",
+      "original_base_model_name_or_path": "/content/lab22/models/sft-merged",
+      "local_base_model_name_or_path": "models/sft-merged"
+    },
+    {
+      "file": "adapters/variants/dpo_norm/ref/adapter_config.json",
+      "original_base_model_name_or_path": "/content/lab22/models/sft-merged",
+      "local_base_model_name_or_path": "models/sft-merged"
+    },
+    {
+      "file": "adapters/variants/ld_dpo/adapter_config.json",
+      "original_base_model_name_or_path": "/content/lab22/models/sft-merged",
+      "local_base_model_name_or_path": "models/sft-merged"
+    },
+    {
+      "file": "adapters/variants/ld_dpo/ref/adapter_config.json",
+      "original_base_model_name_or_path": "/content/lab22/models/sft-merged",
+      "local_base_model_name_or_path": "models/sft-merged"
+    },
+    {
+      "file": "adapters/variants/orpo/adapter_config.json",
+      "original_base_model_name_or_path": "/content/lab22/models/sft-merged",
+      "local_base_model_name_or_path": "models/sft-merged"
+    },
+    {
+      "file": "adapters/variants/rpo/adapter_config.json",
+      "original_base_model_name_or_path": "/content/lab22/models/sft-merged",
+      "local_base_model_name_or_path": "models/sft-merged"
+    },
+    {
+      "file": "adapters/variants/rpo/ref/adapter_config.json",
+      "original_base_model_name_or_path": "/content/lab22/models/sft-merged",
+      "local_base_model_name_or_path": "models/sft-merged"
+    }
+  ],
+  "source_notebook_sha256": "d48f6f9c047de8f6a90928256a5284fdc080c0a2dfca25a74d4f8a23a00dcfa6",
+  "notebook_update": {
+    "description": "Executed the already-filled NB0 loss function and assertions in a separate local CPU kernel; preserved Colab training outputs. Completed matching function in notebooks/00_dpo_loss_from_scratch.py.",
+    "original_cell_indices_reexecuted": [
+      19,
+      20
+    ],
+    "added_cells": [
+      "local CPU validation note",
+      "initial loss, beta-zero, and gradient checks"
+    ]
+  }
+}
