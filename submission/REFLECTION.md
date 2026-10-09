@@ -4,7 +4,7 @@
 
 **Mã học viên:** 2A202602706
 
-**Khoá / lớp / track:** K4 / L3 / Track 3
+**Khoá / lớp / track:** K4 / L3A / Track 3
 
 **Tier đã chạy:** T4
 
